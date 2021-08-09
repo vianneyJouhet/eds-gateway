@@ -1,0 +1,23 @@
+{
+  "myApp": {
+    "c": {
+      "home": {
+        "title": "CS",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new C",
+        "createOrEditLabel": "Create or edit a C",
+        "notFound": "No CS found"
+      },
+      "created": "A new C is created with identifier {{ param }}",
+      "updated": "A C is updated with identifier {{ param }}",
+      "deleted": "A C is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete C {{ id }}?"
+      },
+      "detail": {
+        "title": "C"
+      },
+      "id": "ID"
+    }
+  }
+}

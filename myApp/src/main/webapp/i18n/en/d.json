@@ -1,0 +1,23 @@
+{
+  "myApp": {
+    "d": {
+      "home": {
+        "title": "DS",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new D",
+        "createOrEditLabel": "Create or edit a D",
+        "notFound": "No DS found"
+      },
+      "created": "A new D is created with identifier {{ param }}",
+      "updated": "A D is updated with identifier {{ param }}",
+      "deleted": "A D is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete D {{ id }}?"
+      },
+      "detail": {
+        "title": "D"
+      },
+      "id": "ID"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "myApp": {
+    "b": {
+      "home": {
+        "title": "BS",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new B",
+        "createOrEditLabel": "Create or edit a B",
+        "notFound": "No BS found"
+      },
+      "created": "A new B is created with identifier {{ param }}",
+      "updated": "A B is updated with identifier {{ param }}",
+      "deleted": "A B is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete B {{ id }}?"
+      },
+      "detail": {
+        "title": "B"
+      },
+      "id": "ID",
+      "a": "A"
+    }
+  }
+}

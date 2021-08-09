@@ -1,0 +1,16 @@
+{
+  "name": "D",
+  "fields": [],
+  "relationships": [],
+  "entityTableName": "d",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["myApp"],
+  "databaseType": "sql",
+  "changelogDate": "20210809090236"
+}

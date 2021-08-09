@@ -1,0 +1,25 @@
+{
+  "name": "A",
+  "fields": [],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "b",
+      "otherEntityRelationshipName": "a",
+      "relationshipName": "b"
+    }
+  ],
+  "entityTableName": "a",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["myApp", "myApp1"],
+  "microserviceName": "myApp1",
+  "clientRootFolder": "myApp1",
+  "databaseType": "sql",
+  "changelogDate": "20210809090236"
+}

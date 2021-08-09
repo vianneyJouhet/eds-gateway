@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+    <!--
+        Added the constraints for entity B.
+    -->
+    <changeSet id="20210809090336-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="a_id"
+                                 baseTableName="b"
+                                 constraintName="fk_bb__aa_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="a"/>
+    </changeSet>
+</databaseChangeLog>
