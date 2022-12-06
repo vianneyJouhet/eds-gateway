@@ -1,0 +1,31 @@
+{
+  "edsGatewayApp": {
+    "eDSApplication": {
+      "home": {
+        "title": "EDS Applications",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new EDS Application",
+        "createOrEditLabel": "Create or edit a EDS Application",
+        "notFound": "No EDS Applications found"
+      },
+      "created": "A new EDS Application is created with identifier {{ param }}",
+      "updated": "A EDS Application is updated with identifier {{ param }}",
+      "deleted": "A EDS Application is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete EDS Application {{ id }}?"
+      },
+      "detail": {
+        "title": "EDS Application"
+      },
+      "id": "ID",
+      "name": "Name",
+      "logo": "Logo",
+      "link": "Link",
+      "description": "Description",
+      "category": "Category",
+      "authorizedRole": "Authorized Role",
+      "needAuth": "Need Auth",
+      "defaultHidden": "Default Hidden"
+    }
+  }
+}

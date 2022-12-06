@@ -1,0 +1,24 @@
+application {
+  config {
+    baseName edsGateway
+    applicationType gateway
+    packageName fr.chu.bordeaux.eds
+    authenticationType oauth2
+    databaseType mongodb
+    prodDatabaseType mongodb
+    clientFramework react
+    skipUserManagement true
+  }
+  entities EDSApplication
+}
+
+entity EDSApplication {
+  name String
+  logo ImageBlob required
+  link String
+  description TextBlob    
+  category String
+  authorizedRole String
+  needAuth Boolean 
+  defaultHidden Boolean
+}
